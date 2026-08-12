@@ -29,7 +29,6 @@ I build backend and security systems, then connect AI to real product workflows.
 | Project | What it demonstrates | Stack / evidence |
 |---|---|---|
 | [**ConsentLedger**](https://github.com/teriyakki-jin/ConsentLedger) | MyData consent workflows, JWT/API-key auth, immutable hash-chain audit logs, AWS deployment | Java 17 · Spring Boot 3.3 · PostgreSQL · React · AWS |
-| [**NEXUS Stock API**](https://github.com/teriyakki-jin/stock-api) | Pessimistic-lock order engine, market-data failover, Redis caching, WebSocket/SSE events | Spring Boot 4 · PostgreSQL · Redis · KIS/Yahoo Finance |
 | [**SecureScope**](https://github.com/teriyakki-jin/SecureScope) | Security event ingestion, rule-based detection, tamper-evident audit logs, live dashboard | Spring Boot · PostgreSQL · Redis · React |
 
 ### 🔐 Security Engineering
@@ -44,6 +43,7 @@ I build backend and security systems, then connect AI to real product workflows.
 
 | Project | What it demonstrates | Stack / evidence |
 |---|---|---|
+| [**AIVLE Manufacturing Risk Platform**](https://github.com/teriyakki-jin/Aivle_8th_19team) | Team project: automotive process monitoring and prediction; contributed Spring Boot/JWT auth, board/signup, battery dashboard, and UI integration | React · Express · Spring Boot · FastAPI · PyTorch/YOLO |
 | [**Water Treatment Graph RAG**](https://github.com/teriyakki-jin/Graph-RAG-with-water) | Hybrid graph/vector retrieval over Korean water-quality regulations and processes | 40-question evaluation · overall 0.830 |
 | [**LyricInsight**](https://github.com/teriyakki-jin/LyricInsight) | Full-stack lyric analysis with 44-label emotion classification and visual analytics | React · Spring Boot · FastAPI · F1-micro 52.2% |
 | [**LLM Security Gateway**](https://github.com/teriyakki-jin/llm-security-gateway) | Prompt-injection and PII controls over an ML-KEM-768/X25519 hybrid channel | Python · Go · FIPS 203-oriented design |
