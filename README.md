@@ -2,7 +2,9 @@
 
 ![teriyakki-jin — Security Engineering Portfolio](https://capsule-render.vercel.app/api?type=waving&color=0:08111F,50:12345A,100:34D399&height=230&section=header&text=teriyakki-jin&fontSize=58&fontColor=F8FAFC&animation=fadeIn&fontAlignY=37&desc=Security%20Engineering%20Portfolio&descSize=19&descAlignY=58)
 
-### 🔐 Zero Trust · Network Forensics · AI Security
+### Network Engineering · Zero Trust · AI Security
+
+백엔드부터 AI까지, 시스템 전체의 흐름을 설계하고 배포합니다.<br>
 
 재현 가능한 보안 시스템을 만들고, 테스트와 실행 증거로 보안 주장을 검증합니다.<br>
 I build reproducible security systems and validate security claims with tests and execution evidence.
@@ -17,15 +19,19 @@ I build reproducible security systems and validate security claims with tests an
 
 ## 🛡️ About Me
 
+- 부산대학교 CS 졸업 · KT AIVLE School 프로젝트 경험
+- Network architecture, failure impact analysis, and observable operations platforms
 - Identity- and context-aware access control with **Zero Trust Architecture**
 - Network detection engineering and **forensic evidence pipelines**
 - AI agent runtime security, LLM gateways, and **policy-as-code**
 - Security controls backed by reproducible labs, automated tests, and documented limitations
 
-## 🚀 Featured Security Projects
+## 🚀 Featured Network & Security Projects
 
 | Project | What it demonstrates | Evidence |
 |---|---|---|
+| [**TelcoNet Sentinel**](https://github.com/teriyakki-jin/telconet-sentinel) | FRRouting/containerlab OSPF network, BFD blackhole detection, link/node/SRLG impact analysis, Prometheus/Grafana | 20 trials per profile · local p95 detection upper bound: OSPF `4,058ms`, BFD `519ms` |
+| [**NetSentry**](https://github.com/teriyakki-jin/netsentry) | Simulated network operations console, telemetry collection, alert correlation, persisted incident failover | 10 virtual devices · 5 services · 3 incident scenarios · Spring Boot + React + PostgreSQL |
 | [**Zero Trust Network Lab**](https://github.com/teriyakki-jin/zero-trust-network-lab) | Keycloak identity, FastAPI PEP, OPA decisions, isolated Docker data plane | OPA `6/6` · integration `7/7` · CI |
 | [**Agent Runtime Security Lab**](https://github.com/teriyakki-jin/agent-runtime-security-lab) | Intent/runtime correlation, OPA controls, Tetragon eBPF telemetry, OCSF evidence | recall `100%` · false positives `0%` in local fixtures |
 | [**Network Forensics Lab**](https://github.com/teriyakki-jin/network-forensics-lab) | Attack traffic, Snort/Suricata cross-validation, Elastic visualization | 6 scenarios · 45/45 alerts · 91% coverage |
@@ -33,6 +39,16 @@ I build reproducible security systems and validate security claims with tests an
 | [**SecureScope**](https://github.com/teriyakki-jin/SecureScope) | Lightweight SIEM with detection rules, tamper-evident logs, live dashboards | Spring Boot · PostgreSQL · Redis · React |
 
 > Measurements are repository-scoped local validation results, not claims about production performance.
+
+## Backend & AI Projects
+
+| Project | Core implementation |
+|---|---|
+| [**localops-agent**](https://github.com/teriyakki-jin/localops-agent) | MCP-based local-first Agent Orchestrator, Policy Engine, Trace Logger, approval-based execution |
+| [**ConsentLedger**](https://github.com/teriyakki-jin/ConsentLedger) | MyData consent and transfer management, Spring AI MCP tools, hash-chain audit logs, integrity verification |
+| [**Water Treatment Graph RAG**](https://github.com/teriyakki-jin/Graph-RAG-with-water) | Domain-specific knowledge graph, Neo4j/KR-SBERT hybrid retrieval, RAG evaluation |
+
+More projects and KT AIVLE School work: [Portfolio](https://teriyakki-jin.github.io/#projects).
 
 <br>
 
